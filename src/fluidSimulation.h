@@ -3,11 +3,11 @@
 
 #include "linear_algebra.h"
 
-#define PARTICLE_COUNT 1000
-#define SPEED_SCALE 1.0f
+#define PARTICLE_COUNT 500
+#define SPEED_SCALE 100.0f
 #define PRESSURE 0.01f  // Control density of the fluid-like behavior;
 #define GRAVITY_ENABLED 1 // Set to 0 to disable gravity
-#define INTERACTION_RADIUS 0.1f // Radius for particle interactions
+#define INTERACTION_RADIUS 5.0f // Radius for particle interactions
 
 #define DENSITY_RADIUS 0.1f
 #define BOUNDARY_SIZE 0.9f  // Define the square boundary size
@@ -18,6 +18,7 @@
 typedef struct {
     Vec2 position;
     Vec2 velocity;
+    float density;
 } Particle;
 
 
