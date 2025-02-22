@@ -1,2 +1,3 @@
 all:
-	gcc -o fluidSim src/fluidSimulation.c src/main.c -lglfw -lGLEW -lGL -lm
+	g++ -o fluidSim src/fluidSimulation.cpp src/main.cpp -lglfw -lGLEW -lGL -lm
+	./fluidSim
