@@ -1,4 +1,4 @@
-#include "fluidSimulation.h"
+#include "spaceSim.h"
 int main(){
     runSim();
 }

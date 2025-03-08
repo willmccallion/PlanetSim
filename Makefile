@@ -1,3 +1,3 @@
 all:
-	g++ -o fluidSim src/fluidSimulation.cpp src/main.cpp -lglfw -lGLEW -lGL -lm
-	./fluidSim
+	g++ -o spaceSim src/spaceSim.cpp src/main.cpp -lglfw -lGLEW -lGL -lm
+	./spaceSim
